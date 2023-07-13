@@ -5,7 +5,7 @@ function preload(){
     song2 = loadSound("music2.mp3");
 }
 function setup(){
-    canvas = createCanvas(400,400);
+    canvas = createCanvas(200,200);
     canvas.center();
     video = createCapture(VIDEO);
     video.hide();
